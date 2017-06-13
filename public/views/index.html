@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="../vendors/angular.min.js" charset="utf-8"></script>
+  <script src="../vendors/angular-route.min.js" charset="utf-8"></script>
+  <script src="../scripts/app.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <title>Cool People Gallery</title>
+</head>
+<body ng-app="abApp">
+  <header>
+    <h1 class="thing"> Cool People Gallery </h1>
+  </header>
+  <div class="container">
+    <div class="row">
+      <ng-view></ng-view>
+    </div>
+
+  </div>
+  <footer>
+
+    <p class="thing"><a href="#!/">Show me Steven</a>     ||
+    <a href="#!/jack">Show me Jack</a>     ||
+    <a href="#!/breakout">Show me Rocket League</a></p>
+    <h5 class="thing">Weren't they cool!</h5>
+  </footer>
+</body>
+</html>
